@@ -1,0 +1,67 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 1000px;
+  height: 90px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: var(--gray-6, #f2f2f2);
+  box-shadow: 20px 20px 120px 15px rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.selectBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.selectBlock .ant-select {
+  width: 201px;
+}
+
+.selectBlock .ant-select-selector {
+  background-color: var(--gray-5, #e0e0e0) !important;
+  padding: 9px !important;
+  height: 47px !important;
+}
+
+.selectBlock .ant-picker {
+  background-color: var(--gray-5, #e0e0e0) !important;
+  padding: 12px 24px;
+}
+
+.date-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+
+.btn {
+  height: 47px;
+  padding: 14px 40px;
+  background: var(--gray-1, #333);
+  color: white;
+}
+
+.warning{
+  color: red  ;
+}
